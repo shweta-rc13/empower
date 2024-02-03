@@ -1,24 +1,35 @@
 *{
     margin: 0;
     padding: 0%;
+ 
+  
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px;
+    padding: 10px;
     max-width: 1070px;
     width: 100%;
     margin: auto;
-  
+
+   
+}
+.container{
+    display: flex;
+            justify-content: space-around; /* Adjust as needed: space-around, space-between, etc. */
+            align-items: center;
+            height: 200px; /* Adjust the height as needed */
+            border: 1px solid #ddd;
 }
 .courses-container{
     border: 2px solid;
     padding: 20px;
     border-radius: 10px;
-    width: 600px;
+    width: 200px;
     justify-content: center;
     margin: 20px;
+    
     
 }
 .courses-container h3{
